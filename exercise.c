@@ -4,7 +4,7 @@
 
 #define BUFSIZE 256
                                 
-int read_file(const char *filename) {
+int main(const char *filename) {
     FILE* ptr = fopen(filename, "r");
                                 
     if (ptr == NULL) {
